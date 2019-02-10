@@ -32,6 +32,8 @@
 
  .header{
      padding-top: 10rem;
+     min-height: 600px;
+     height: auto;
  }
 
  #links {
@@ -70,37 +72,13 @@
 
 
  .section {
-     background-color: #0a0000d2;
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     height: 200px;
-     width: auto;
-     margin-right: -10px;
-     margin-left: -10px;
-
-
- }
-
- #location {
-     display: flex;
-     flex-direction: column;
-     width: 300px;
-     height: 80px;
-     padding: 20px;
-     margin: 20px;
-     margin-left: 15px;
-     cursor: pointer;
-
+    background-color: #0a0000d2;
  }
 
  #location i {
      color: #fff;
-     width: auto;
      text-align: left;
      font-size: 25px;
-     cursor: pointer;
  }
 
  #location h4 {
@@ -118,17 +96,6 @@
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
- #contact {
-     width: 300px;
-     height: 100px;
-     flex-direction: column;
-     display: flex;
-     padding: 20px;
-     cursor: pointer;
-     margin-left: 50px;
-     margin-right: 50px;
- }
-
  #location p {
      font-size: 1.2em;
      color: #fff;
@@ -137,7 +104,7 @@
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
- #contact h4 {
+#contact h4 {
      font-size: 1.4em;
      color: #fff;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -148,7 +115,6 @@
 
  #contact i {
      color: #fff;
-     text-align: center;
      padding: 3px;
      font-size: 18x;
      letter-spacing: 1px;
@@ -156,8 +122,6 @@
  }
 
  #icons-net {
-     display: flex;
-     flex-direction: row;
      width: 300px;
      height: 50px;
 
@@ -166,10 +130,7 @@
  #icons-net i {
      color: #fff;
      font-size: 25px;
-     text-align: right;
-     padding-top: -25px;
      cursor: pointer;
-     padding-top: -45px;
 
  }
 
@@ -177,7 +138,7 @@
      opacity: 0.6;
  }
 
- .inform {
+ /*.inform {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +151,7 @@
     background-color: #0b6c99e7;
 }
 
- .inform h5 {
+ /*.inform h5 {
      font-size: 1.2em;
      text-align: center;
      color: #fff;
