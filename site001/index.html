@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <title>Loja de informatica</title>
@@ -16,39 +16,55 @@
 </head>
 
 <body>
-    <nav class="navbar menu">
-        <div id="logo">
-            <span>AE Tech</span>
-        </div>
-        <div id="links">
-            <div id="menu">
-                <a href="#">Início</a>
-                <a href="#">Produtos</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-            </div>
-        </div>
-        <div id="searchBar">
-            <i class="fas fa-search"></i>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top menu">
+        <a class="navbar-brand" id="logo" href="#"><span>AE Tech</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto" id="menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+            <form class="form-inline" id="searchBar">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                        class="fas fa-search"></i></button>
+            </form>
         </div>
     </nav>
-    <header class="header">
-        <div id="box1">
-            <p>As melhores tecnologias do mercado</p>
-            <img src="./img/binary-01.jpg" alt="computadores" id="img01" style="height: 200px;">
-        </div>
-        <div id="box2">
-            <p>Ideias inovadoras e grandes projetos</p>
-            <img src="./img/lamp-04.jpg" alt="lampada" id="img04" style="height: 200px;">
-        </div>
-        <div id="box3">
-            <p>Profissionais qualificados tecnicamente</p>
-            <img src="./img/work-06.jpg" alt="computador" id="img06" style="height: 200px;">
-        </div>
-    </header>
 
-    <section class="section">
+
+    <div class="container-fluid header">
+        <div class="row justify-content-around">
+            <div class="col-sm-4 text-center" id="box1">
+                <p>As melhores tecnologias do mercado</p>
+                <img src="./img/binary-01.jpg" class="img-thumbnail" alt="computadores" id="img01" style="height: 200px;">
+            </div>
+            <div class="col-sm-4 text-center" id="box2">
+                <p>Ideias inovadoras e grandes projetos</p>
+                <img src="./img/lamp-04.jpg" a class="img-thumbnail"lt="lampada" id="img04" style="height: 200px;">
+            </div>
+            <div class="col-sm-4 text-center" id="box3">
+                <p>Profissionais qualificados tecnicamente</p>
+                <img src="./img/work-06.jpg" a class="img-thumbnail"lt="computador" id="img06" style="height: 200px;">
+            </div>
+        </div>
+    </div>
+
+
+    <!--  <section class="section">
         <div id="location">
             <i class="fas fa-map-marker-alt"></i>
             <h4>Localização:</h4>
@@ -74,7 +90,7 @@
             <input type="text" placeholder="Digite seu email">
             <button>Cadastrar</button>
         </form>
-    </section>
+    </section> -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
